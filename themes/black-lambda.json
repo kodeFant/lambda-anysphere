@@ -5,7 +5,7 @@
         "activityBar.background": "#181818",
         "activityBar.border": "#1f1f1f",
         "activityBarBadge.background": "#228df2",
-        "editor.background": "#181818",
+        "editor.background": "#000000",
         "editor.foreground": "#d6d6dd",
         "editor.inactiveSelectionBackground": "#363636",
         "editor.selectionHighlightBackground": "#add6ff26",
@@ -31,7 +31,6 @@
     "tokenColors": [
         {
             "scope": [
-                "meta.embedded",
                 "source.groovy.embedded",
                 "meta.template.expression",
                 "storage.modifier.import.java",
@@ -48,12 +47,15 @@
         },
         {
             "scope": [
+                "punctuation.section.embedded.begin.haskell",
+                "punctuation.section.embedded.end.haskell",
                 "constant.numeric",
                 "markup.inserted",
                 "meta.preprocessor.numeric",
                 "keyword.other.unit",
                 "constant.sha.git-rebase",
                 "variable.other.member.haskell",
+                "meta.record.definition.haskell"
             ],
             "settings": {
                 "foreground": "#ebc88d"
@@ -94,7 +96,9 @@
                 "support.function",
                 "support.constant.handlebars",
                 "entity.name.function",
-                "storage.type.haskell"
+                "storage.type.haskell",
+                "meta.attribute",
+                "keyword.other.let.haskell"
             ],
             "settings": {
                 "foreground": "#aaa0fa"
@@ -175,7 +179,8 @@
                 "record.name.haskell",
                 "entity.name.record.field.haskell",
                 "entity.other.attribute-name.haskell",
-                "variable.other.field.haskell"
+                "variable.other.field.haskell",
+                "entity.other.attribute-name.class.css"
             ],
             "settings": {
                 "foreground": "#f8c762"
@@ -184,7 +189,8 @@
         {
             "scope": [
                 "keyword.operator.assignment.haskell",
-                "keyword.operator.eq.haskell"
+                "keyword.operator.eq.haskell",
+                "keyword.control.case.haskell"
             ],
             "settings": {
                 "foreground": "#83d6c5"
