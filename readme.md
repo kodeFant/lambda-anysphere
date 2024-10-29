@@ -16,7 +16,6 @@ Dark+:
 You can get Lambda Anysphere on:
 
   - [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=kodeFant.lambda-anysphere)
-  - [Open-VSX Registry](https://open-vsx.org/extension/kodeFant/lambda-anysphere)
 
 Or install it from source:
 
