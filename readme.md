@@ -1,19 +1,19 @@
-# [Lambda Black](https://marketplace.visualstudio.com/items?itemName=janw4ld.lambda-black)
+# [Lambda Anysphere](https://marketplace.visualstudio.com/items?itemName=kodeFant.lambda-anysphere)
 
-__Lambda Black__ is a VS Code color theme optimised for Haskell with extra syntax colors for more language scopes. It's based on [Groovy Lambda](https://marketplace.visualstudio.com/items?itemName=sheaf.groovylambda) but is very ungrooved and doesn't break languages other than Haskell, but actually improves them.
+__Lambda Anysphere__ is a VS Code color theme optimised for Haskell with extra syntax colors for more language scopes. It's based on [Lambda Black](https://marketplace.visualstudio.com/items?itemName=janw4ld.lambda-black) and replaced with colors from [Anysphere Modern](https://marketplace.visualstudio.com/items?itemName=GustavoPrietodePaula.anysphere-modern).
 
 ## Color schemes
 Black:
 <p align="center">
-  <img src="https://pomf2.lain.la/f/e4es7p8s.png" alt="Black color scheme" style="max-width:90%;">
+  <img src="https://pomf2.lain.la/f/z6rumiaw.png" alt="Black color scheme" style="max-width:90%;">
 </p>
 Dark+:
 <p align="center">
-  <img src="https://pomf2.lain.la/f/0atm6yx.png" alt="Dark+ color scheme" style="max-width:90%;">
+  <img src="https://pomf2.lain.la/f/cumylqsv.png" alt="Dark+ color scheme" style="max-width:90%;">
 </p>
 
 ## Features
-Lambda Black supports all TextMate scopes provided by the [__Language Haskell__](https://github.com/JustusAdam/language-haskell) VS Code extension, making it able to:
+Lambda Anysphere supports all TextMate scopes provided by the [__Language Haskell__](https://github.com/JustusAdam/language-haskell) VS Code extension, making it able to:
 
   - disambiguate between data constructors and types in data declarations,
   - distinguish qualified names from other identifiers,
@@ -22,10 +22,10 @@ Lambda Black supports all TextMate scopes provided by the [__Language Haskell__]
   - highlights MagicHash and OverloadedLabels,
 
 # Installation
-You can get Lambda Black on:
+You can get Lambda Anysphere on:
 
-  - [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=janw4ld.lambda-black)
-  - [Open-VSX Registry](https://open-vsx.org/extension/janw4ld/lambda-black)
+  - [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=kodeFant.lambda-anysphere)
+  - [Open-VSX Registry](https://open-vsx.org/extension/kodeFant/lambda-anysphere)
 
 Or install it from source:
 
@@ -36,13 +36,13 @@ Or install it from source:
 1. Clone the repo, build and install the extension:
 
     ```bash
-    git clone --depth 1 git@github.com:janw4ld/lambda-black.git && {
-      cd lambda-black
+    git clone --depth 1 git@github.com:kodeFant/lambda-anysphere.git && {
+      cd lambda-anysphere
       
       npm install --save-dev @vscode/vsce
       npm exec vsce package
 
-      code --install-extension lambda-black-*.vsix
+      code --install-extension lambda-anysphere-*.vsix
     }
     ```
 
