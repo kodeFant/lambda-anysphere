@@ -3,12 +3,12 @@
 	"displayName": "Lambda Anysphere",
 	"description": "Default dark+ theme with support for Haskell syntax colors and a black background variant.",
 	"icon": "img/icon.png",
-	"publisher": "janw4ld",
-	"version": "0.2.7",
-	"homepage": "https://github.com/janw4ld/lambda-black",
+	"publisher": "kodeFant",
+	"version": "0.2.9",
+	"homepage": "https://github.com/kodeFant/lambda-anysphere",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/janw4ld/lambda-black.git"
+		"url": "https://github.com/kodeFant/lambda-anysphere.git"
 	},
 	"engines": {
 		"vscode": "^1.40.0"
