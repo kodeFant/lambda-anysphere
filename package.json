@@ -1,6 +1,6 @@
 {
-	"name": "lambda-black",
-	"displayName": "Lambda Black",
+	"name": "lambda-anysphere",
+	"displayName": "Lambda Anysphere",
 	"description": "Default dark+ theme with support for Haskell syntax colors and a black background variant.",
 	"icon": "img/icon.png",
 	"publisher": "janw4ld",
@@ -19,15 +19,18 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Lambda Black",
+				"label": "Anysphere Lambda Black",
 				"uiTheme": "vs-dark",
 				"path": "./themes/black-lambda.json"
 			},
 			{
-				"label": "Lambda Dark+",
+				"label": "Anysphere Lambda Dark+",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark-lambda.json"
 			}
 		]
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^3.2.1"
 	}
 }
