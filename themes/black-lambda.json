@@ -7,11 +7,11 @@
         "activityBarBadge.background": "#228df2",
         "editor.background": "#181818",
         "editor.foreground": "#d6d6dd",
-        "editor.inactiveSelectionBackground": "#3636368f",
+        "editor.inactiveSelectionBackground": "#363636",
         "editor.selectionHighlightBackground": "#add6ff26",
         "editorGroupHeader.tabsBackground": "#181818",
-        "editorIndentGuide.activeBackground1": "#707070",
-        "editorIndentGuide.background1": "#404040",
+        "editorIndentGuide.activeBackground": "#707070",
+        "editorIndentGuide.background": "#404040",
         "input.placeholderForeground": "#7b7b7b",
         "list.dropBackground": "#383b3d",
         "menu.background": "#181818",
@@ -52,7 +52,8 @@
                 "markup.inserted",
                 "meta.preprocessor.numeric",
                 "keyword.other.unit",
-                "constant.sha.git-rebase"
+                "constant.sha.git-rebase",
+                "variable.other.member.haskell",
             ],
             "settings": {
                 "foreground": "#ebc88d"
@@ -92,7 +93,8 @@
             "scope": [
                 "support.function",
                 "support.constant.handlebars",
-                "entity.name.function"
+                "entity.name.function",
+                "storage.type.haskell"
             ],
             "settings": {
                 "foreground": "#aaa0fa"
@@ -105,6 +107,14 @@
             ],
             "settings": {
                 "foreground": "#efb080"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#898989"
             }
         },
         {
@@ -143,7 +153,8 @@
                 "support.class",
                 "entity.name.class",
                 "entity.other.inherited-class",
-                "storage.class"
+                "storage.class",
+                "entity.name.tag.html"
             ],
             "settings": {
                 "foreground": "#87c3ff"
@@ -156,6 +167,50 @@
             ],
             "settings": {
                 "foreground": "#82d2ce"
+            }
+        },
+        {
+            "scope": [
+                "meta.record.field.haskell",
+                "record.name.haskell",
+                "entity.name.record.field.haskell",
+                "entity.other.attribute-name.haskell",
+                "variable.other.field.haskell"
+            ],
+            "settings": {
+                "foreground": "#f8c762"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator.assignment.haskell",
+                "keyword.operator.eq.haskell"
+            ],
+            "settings": {
+                "foreground": "#83d6c5"
+            }
+        },
+        {
+            "scope": [
+                "meta.record punctuation.section.braces",
+                "meta.record punctuation.brace",
+                "punctuation.definition.record.begin.haskell",
+                "punctuation.definition.record.end.haskell",
+                "punctuation.section.bracket.curly.begin.haskell",
+                "punctuation.section.bracket.curly.end.haskell"
+            ],
+            "settings": {
+                "foreground": "#87c3ff"
+            }
+        },
+        {
+            "scope": [
+                "meta.record.value.haskell",
+                "meta.record.field.value.haskell",
+                "variable.other.generic-type.haskell"
+            ],
+            "settings": {
+                "foreground": "#d6d6dd"
             }
         }
     ],
