@@ -7,11 +7,11 @@
         "activityBarBadge.background": "#228df2",
         "editor.background": "#000000",
         "editor.foreground": "#d6d6dd",
-        "editor.inactiveSelectionBackground": "#363636",
+        "editor.inactiveSelectionBackground": "#3636367e",
         "editor.selectionHighlightBackground": "#add6ff26",
         "editorGroupHeader.tabsBackground": "#181818",
-        "editorIndentGuide.activeBackground": "#707070",
-        "editorIndentGuide.background": "#404040",
+        "editorIndentGuide.activeBackground1": "#707070",
+        "editorIndentGuide.background1": "#404040",
         "input.placeholderForeground": "#7b7b7b",
         "list.dropBackground": "#383b3d",
         "menu.background": "#181818",
@@ -98,7 +98,8 @@
                 "entity.name.function",
                 "storage.type.haskell",
                 "meta.attribute",
-                "keyword.other.let.haskell"
+                "keyword.other.let.haskell",
+                "entity.other.attribute-name.multipart.nix"
             ],
             "settings": {
                 "foreground": "#aaa0fa"
@@ -134,7 +135,9 @@
         },
         {
             "scope": [
-                "variable.parameter"
+                "variable.parameter",
+                "support.function.nix",
+                "keyword.operator.bind.nix"
             ],
             "settings": {
                 "foreground": "#d6d6dd"
@@ -190,7 +193,8 @@
             "scope": [
                 "keyword.operator.assignment.haskell",
                 "keyword.operator.eq.haskell",
-                "keyword.control.case.haskell"
+                "keyword.control.case.haskell",
+                "keyword.other.nix",
             ],
             "settings": {
                 "foreground": "#83d6c5"
