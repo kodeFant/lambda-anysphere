@@ -12,15 +12,6 @@ Dark+:
   <img src="https://pomf2.lain.la/f/cumylqsv.png" alt="Dark+ color scheme" style="max-width:90%;">
 </p>
 
-## Features
-Lambda Anysphere supports all TextMate scopes provided by the [__Language Haskell__](https://github.com/JustusAdam/language-haskell) VS Code extension, making it able to:
-
-  - disambiguate between data constructors and types in data declarations,
-  - distinguish qualified names from other identifiers,
-  - distinguish different uses of `@`: type application, record syntax or infix operator,
-  - special highlighting for record fields,
-  - highlights MagicHash and OverloadedLabels,
-
 # Installation
 You can get Lambda Anysphere on:
 
@@ -45,9 +36,6 @@ Or install it from source:
       code --install-extension lambda-anysphere-*.vsix
     }
     ```
-
-~~Alternatively, you can clone this repo into your VS Code extensions directory (usually $HOME/.vscode/extensions/), then restart VS Code.~~ Seems broken as of 1.76.1.
-
 # Customisation
 To change how something is highlighted, proceed as follows:
 
