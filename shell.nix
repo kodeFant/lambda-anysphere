@@ -1,8 +1,8 @@
 { pkgs ? import <nixpkgs> { } }:
 
 pkgs.mkShell {
-  packages = [ pkgs.nodejs pkgs.vsce ];
+  packages = [ pkgs.nodejs pkgs.vsce pkgs.sops];
   shellHook = ''
-    vsce
+    vsce --version
   '';
 }
