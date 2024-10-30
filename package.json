@@ -29,8 +29,5 @@
 				"path": "./themes/dark-lambda.json"
 			}
 		]
-	},
-	"devDependencies": {
-		"@vscode/vsce": "^3.2.1"
 	}
 }
