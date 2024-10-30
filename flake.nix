@@ -51,17 +51,17 @@
           packages = [ pkgs.nodejs pkgs.vsce pkgs.sops];
           shellHook = ''
             echo ""
-            echo "-----------------------------------------------------------------"
+            echo "--------------------------------------------------------------------"
             echo ""
             echo "  lambda-anysphere development shell"
             echo ""
             echo "  Commands:"
-            echo "       vsce           Help for vsce"
-            echo "       vsce package   Package the extension to a .vsix file"
-            echo "       vsce publish   Publish the extension to the marketplace"
-            echo "       nix build      Build the extension with nix"
+            echo "       vsce            Help for vsce"
+            echo "       vsce package    Package the extension to a .vsix file"
+            echo "       nix build       Build the extension with nix"
+            echo "       bin/publish.sh  Publish the extension to the marketplace"
             echo ""
-            echo "-----------------------------------------------------------------"
+            echo "--------------------------------------------------------------------"
             echo ""
           '';
         };
