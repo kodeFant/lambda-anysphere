@@ -1,11 +1,11 @@
 keys:
   - &lillo_desktop age177m838rxu8e4qeydp0gr3dnxjqeyvg3qqvrjgjjwu37qphvandqqlgdtud
   - &lillo_thinkpad age142w4ggk4uf3nak386rd2kzkxcudwge3xg84zfn9su3uwt7mlpgeqxsu95h
-  - &lillo_thinkpad2 age1wl5e29qgcsa7avyn0t40vjj4rq7gxn8l5urjcjdshu99uxjkv35s0lnq04
+  - &lillo_t14_win age1wl5e29qgcsa7avyn0t40vjj4rq7gxn8l5urjcjdshu99uxjkv35s0lnq04
 creation_rules:
   - path_regex: secrets/[^/]+\.(yaml|json|env|ini)$
     key_groups:
     - age:
       - *lillo_desktop
-      - *lillo_thinkpad
-      - *lillo_thinkpad2
+      - *lillo_thinkpad 
+      - *lillo_t14_win
