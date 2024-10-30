@@ -21,18 +21,21 @@ Or install it from source:
 
 1. Install dependencies:
     - [git](https://git-scm.com/downloads)
-    - [npm](https://www.npmjs.com/get-npm), or pnpm or yarn  
-    - and only on Linux, [libsecret](https://pkgs.org/download/libsecret)
+    - [nix](https://nixos.org/download/)
 1. Clone the repo, build and install the extension:
 
     ```bash
     git clone --depth 1 git@github.com:kodeFant/lambda-anysphere.git && {
       cd lambda-anysphere
       
-      npm install --save-dev @vscode/vsce
-      npm exec vsce package
+      nix-shell -- If you have only Nix installed  
+      -- or nix develop - If you have flake enabled
+      -- direnv allow -- If you have direnv installed and want automatic shell loading
 
-      code --install-extension lambda-anysphere-*.vsix
+      nix build
+
+      code --install-extension result/lambda-anysphere.vsix
+      # Alernatively Ctrl+Shift+P -> Shell Command: Install from VSIX...
     }
     ```
 # Customisation
