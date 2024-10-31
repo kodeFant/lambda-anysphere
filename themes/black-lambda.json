@@ -39,7 +39,9 @@
                 "meta.definition.variable.name",
                 "entity.name.variable",
                 "meta.object-literal.key",
-                "source"
+                "source",
+                "meta.embedded.block.hsx",
+                "meta.embedded.block.haskell"
             ],
             "settings": {
                 "foreground": "#d6d6dd"

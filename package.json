@@ -4,7 +4,7 @@
 	"description": "Dark Cyberpunk Neon theme with support for Haskell syntax colors and a black background variant.",
 	"icon": "img/icon.png",
 	"publisher": "kodeFant",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"homepage": "https://github.com/kodeFant/lambda-anysphere",
 	"repository": {
 		"type": "git",
